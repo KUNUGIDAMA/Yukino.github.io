@@ -1,24 +1,109 @@
-<!DOCTYPE html>
-
 <html>
 
 <head>
-    <meta charset="UTF-8">
-    <title>TipsNote : GitHub Pages Sample</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/marx/2.0.4/marx.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <title>Yukino's Home Pages</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
 
 <body>
-    <main>
-        <h1>GitHub Pages のサンプルです</h1>
-        <a href="http://www.tam-tam.co.jp/tipsnote/">
-            <button>TipsNote に戻る</button>
-        </a>
-    </main>
+    <!-- <img src="/images/%E3%82%86%E3%81%8D%E3%81%AE.png"> -->
+    <!--
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <a class="navbar-brand" href="#"></a>
 
+
+    </nav>
+-->
+    <!-- ヘッダー-->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <ul class="nav nav-pills">
+            <a class="navbar-brand" href="#"></a>
+            <li><a>Yukino's Home Page</a></li>
+            <li><a href="#">SS Stack</a></li>
+        </ul>
+    </nav>
+    <!--body-->
+    <div>
+        <div class="jumbotron">
+            <h1 class="display-3 text-center">Welcome to Yukino's HP</h1>
+            <p class="lead text-center">チーム集会情報やスタックしたＳＳなどを保管しています</p>
+            <p class="text-center"><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p>
+        </div>
+        <h1 class="mt-0"></h1>
+        <img src="./images/%E3%82%86%E3%81%8D%E3%81%AE.png" alt="Yukino" class="img-responsive img-responsive-overwrite img-circle size-out-brand">
+        <p class="text-center"></p>
+        <hr>
+        <h1 class="text-center">新着情報</h1>
+        <hr>
+        <div class="row">
+            <div class="col-sm-4 col-sm-offset-1 col-md-2 col-md-offset-1">
+                <div class="thumbnail">
+                    <img class="size-out-brand" src="./images/%E3%82%86%E3%81%8D%E3%81%AE.png" alt="...">
+                    <div class="caption">
+                        <h3>七夕ロビー予定地</h3>
+                        <p>2017/07/09<br> 今日はマスターが不在ということで、
+                            <br> 私が撮影します・・・！ <br> ぶっとべ！
+                        </p>
+                        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4  col-md-2 ">
+                <div class="thumbnail">
+                    <img class="size-out-brand" src="./images/pso20160403_221026_028.png" alt="...">
+                    <div class="caption">
+                        <h3>懐かしの思い出</h3>
+                        <p>2017/07/09<br> サイト開設記念に古いＳＳを、
+                            <br> あさりたおしてました。
+                            <br> 古ッ・・・・
+                        </p>
+                        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4  col-md-2 ">
+                <div class="thumbnail">
+                    <img class="size-out-brand" src="./images/pso20160403_221026_028.png" alt="...">
+                    <div class="caption">
+                        <h3>懐かしの思い出</h3>
+                        <p>2017/07/09<br> サイト開設記念に古いＳＳを、
+                            <br> あさりたおしてました。
+                            <br> 古ッ・・・・
+                        </p>
+                        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ui active tab segemnt" data-tab="second"></div>
+    <br>
+    <a class="twitter-timeline" data-width="1000" data-height="350" data-link-color="#1e90ff" href="https://twitter.com/muyorun_gru">Twee by muyorun_gru</a>
+    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <br>
+    <a href="https://twitter.com/share" class="twitter-share-button" data-text="ダイワのホームページ" data-via="muyorun_gru" data-size="large">Tweet</a>
     <script>
-        console.log('GitHub Pages Sample');
+        ! function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0],
+                p = /^http:/.test(d.location) ? 'http' : 'https';
+            if (!d.getElementById(id)) {
+                js = d.createElement(s);
+                js.id = id;
+                js.src = p + '://platform.twitter.com/widgets.js';
+                fjs.parentNode.insertBefore(js, fjs);
+            }
+        }(document, 'script', 'twitter-wjs');
     </script>
+    <hr>
+
 </body>
 
 </html>
